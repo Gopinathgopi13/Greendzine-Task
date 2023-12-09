@@ -3,10 +3,7 @@ import i from './styles/Employee.module.css';
 import Footer from './ReusabilityComponents/Footer';
 import Header from './ReusabilityComponents/Header';
 import CompaneyLogo from './ReusabilityComponents/CompaneyLogo';
-import { IoSearch } from "react-icons/io5";
 import SearchBar from './ReusabilityComponents/SearchBar';
-import Table from 'react-bootstrap/Table';
-import EmpData from './ReusabilityComponents/EmpData';
 import Home from './Home';
 
 function EmployeeDetails() {
