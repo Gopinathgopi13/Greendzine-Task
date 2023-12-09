@@ -19,7 +19,7 @@ function SearchBar() {
           <input type="text" placeholder='Search with name' onChange={(e)=>setUserValue(e.target.value)} />
           </div>
           <div className={i.searchIconParent}>
-          <IoSearch onClick={searchFun}/>
+          <IoSearch className={i.searchIcons} onClick={searchFun}/>
           </div>
          </div>
        </div>
